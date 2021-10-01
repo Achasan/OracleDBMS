@@ -1,0 +1,139 @@
+body {
+    background-color: #f4f5f6;
+}
+
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+#header h1 {
+    width: 240px;
+    height: 44px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    background-repeat: no-repeat;
+    background-size: 240px auto;
+    background-position: 0 0;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    margin: 70px auto 30px;
+}
+
+
+#container, #header {
+    margin: 0 auto; /* 가운데 정렬하라는 뜻이다. */
+    max-width: 468px;
+    min-width: 460px;
+}
+
+.index_class {
+    height:80px;
+}
+
+.index_class h3 label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#email {
+    font-weight: normal;
+    color: gray;
+}
+
+.input_span {
+    padding: 15px;
+    width:400px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+
+.input_span input {
+    width: 400px;
+    height: 30px;
+    border: 0;
+}
+
+#id_input {
+    width: 300px;
+}
+
+.birth_span {
+    padding: 15px;
+    width: 133px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    margin: 0 auto;
+}
+
+.birth_span input {
+    border: 0;
+}
+
+.birth_span input {
+    width: 107px;
+    outline: none;
+}
+
+#birth_select {
+    width: 100px;
+}
+
+#birth_input_span {
+    margin-left: 6px;
+}
+
+.select_row {
+    width: 403.97px;
+    height: 30px;
+    border: 0;
+}
+
+#phone_span {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    margin: 0 auto;
+}
+
+#phone_input {
+    width: 290px;
+    border: 0;
+}
+
+#phone_div {
+    height: 60px;
+    margin: 35px auto;
+}
+
+#phone_button {
+    font-family: 굴림;
+    color: #fff;
+    background-color: #03C75A;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+#phone_button:hover {
+    background-color: #029342;
+}
+
+#reg_div {
+    width: 435px;
+    height: 60px;
+    margin: 80px 0;
+    background-color: #03C75A;
+    text-align: center;
+    color: #fff;
+    font-family: 굴림;
+}
+
+#reg_span{
+    padding: 20px;
+    margin-top: 500px;
+}

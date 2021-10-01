@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, button, abbr, acronym, address, code, del, 
+dfn, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, 
+td, hr{margin:0;padding:0;font-size:100%;box-sizing: border-box;}
+body{height:100%;min-height:100%;font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#737373;line-height:1.5;background:url(../images/content_bg4.png) repeat;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal}
+ol, ul, li {list-style:none}
+table {width:100%; border-collapse:collapse;border-spacing:0}
+form, fieldset, iframe {display:block;border:0}
+img, button {border:0 none;vertical-align:top;}
+hr {height:0; display:none}
+i, em, address{font-style:normal}
+label, button{cursor:pointer}
+blockquote, q {quotes:none}
+caption, legend {overflow:hidden;visibility:hidden;position:absolute;width:0;height:0;padding:0;margin:0;font-size:0;text-indent:-100%;white-space:nowrap;z-index:-1}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block;box-sizing: border-box;}
+input, textarea, select, button {font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#919090;line-height:1.5;letter-spacing:0;vertical-align:middle; border:none;}
+input, textarea {margin:0;padding:0;  background:none; box-sizing:border-box;}
+textarea {resize:none}
+a {color:#919090;text-decoration:none}
+a:link, a:visited {text-decoration:none}
+a:hover {text-decoration:none}
+.blind{display: none;overflow: hidden;position: absolute;width: 0;height: 0;padding: 0;margin: 0; font-size: 0;line-height: 0; text-indent: -9999em;visibility: hidden;outline: none;z-index: -1;}
+html,body{overflow:hidden;height:100%;}
+
+ 
+#warp {
+    width: 100%;
+    height: 100%;
+    padding-right: 180px;
+    /* header가 오른쪽에서 180px만큼 차지하므로 180px만큼 padding으로 설정해줌 */
+}
+
+#warp h1 {
+    font-size: 0;
+}
+
+header .logo_box {
+    position: absolute;     /* 브라우저기준으로 위치가 고정되도록 absolute로 설정 */
+    right: 35px;            /* 오른쪽에서 35px, 위에서 75px 떨어진 곳에 위치 */
+    top: 75px;
+}
+
+header .logo_box img {
+    width: 100px;
+}
+
+#wrap header {
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-image: url(../images/menu_bg1.png);
+    background-repeat: repeat-y; /* y축으로 반복되도록 설정 */
+    z-index: 11; /* header를 항상 위에 위치하게하기 위해서 사용하는 속성이다. 음수값을 주면 기준보다 작아서 아래에 위치한다. */
+}
+
+#container{
+    width:100%;
+    height:100%;
+}
+
+#wrap header nav {
+    width: 100%;
+    height: 100%;
+}
+
+#wrap header nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#warp header nav ul li {
+    margin:0px 0px 10px 30px;
+}
+
+#warp header nav ul li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#warp header nav ul li a:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
