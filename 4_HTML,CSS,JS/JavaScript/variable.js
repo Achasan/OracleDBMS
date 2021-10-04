@@ -21,3 +21,15 @@ const calculator = (command, a, b) => {
 const add = 'add';
 
 document.querySelector('div').textContent = calculator('substract', 10, 2);
+
+const array = ['1', '2', '3'];
+let sum = 0;
+array.forEach((number) => {sum += number;});
+console.log(sum);
+
+let str = array.join();
+console.log(str += '2');
+
+const filtered = array.filter((a, b) => a <= 3 && b <= 1);
+console.log(array);
+console.log(filtered);
