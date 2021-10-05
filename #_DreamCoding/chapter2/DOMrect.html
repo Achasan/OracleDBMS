@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinates</title>
+    <style>
+        body {
+            background-color: #f4f5f6;
+        }
+
+        .ractangle {
+            width: 150px;
+            height: 150px;
+            margin: 15px;
+            background-color: gray;
+        }
+
+        .click {
+            background-color: black;
+        }
+
+        .buttons {
+            position: fixed;
+            top: 5%;
+            right: 5%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle click"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="ractangle"></div>
+    <div class="buttons">
+        <button class="by100px">Scroll by 100px(y)</button>
+        <button class="to100px">Scroll to 100px(y)</button>
+        <button class="special">Scroll into special</button>
+    </div>
+    
+    <script>
+        const $click = document.querySelector('.click');
+
+        const checkXY = (event) => {
+            console.log(`clientX : ${event.clientX}`);
+            console.log(`clientY : ${event.clientY}`);
+            console.log(`pageX : ${event.pageX}`);
+            console.log(`pageY : ${event.pageY}`);
+            console.log($click.getBoundingClientRect())
+        }
+
+        $click.addEventListener('click', (event) => checkXY(event));
+
+        const $by = document.querySelector('.by100px');
+        const $to = document.querySelector('.to100px');
+        const $special = document.querySelector('.special');
+
+        $by.addEventListener('click', () => window.scrollBy(100,100));
+        $to.addEventListener('click', () => window.scrollTo(0, 100));
+        $special.addEventListener('click', () => {
+            const rect = $click.getBoundingClientRect();
+            window.scrollTo({top: rect.top, left: 0, behavior:'smooth'});
+        });
+
+    </script>
+</body>
+</html>

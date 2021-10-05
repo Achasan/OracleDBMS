@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<button id="raffle">추첨!</button>
+	
+<script>
+	
+	$raffle = document.querySelector('#raffle');
+	
+	function raffle() {
+		const num = Math.floor((Math.random() * 9) + 1);
+			
+		switch(num){
+			case 3:
+				alert('3이 나왔습니다. 냉장고에 당첨되었습니다!');
+				break;
+			case 5:
+				alert('5가 나왔습니다. 세탁기에 당첨되었습니다!');
+				break;
+			case 7:
+				alert('7이 나왔습니다. TV에 당첨되었습니다!');
+				break;
+			default:
+				alert('아쉽습니다, 당첨된 상품이 없습니다.');
+				break;
+		}
+			
+		console.log(num);
+			
+		confirm('추첨을 다시 진행할까요?') ? raffle() : alert('추첨이 진행되지 않았습니다.');
+	}
+	
+	
+	$raffle.addEventListener('click', raffle());
+	
+	
+</script>
+</body>
+</html>
