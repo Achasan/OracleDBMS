@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f4f5f6;
+        text-align: center;
+      }
+
+      .images{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .images img {
+        margin-top: 50px;
+      }
+
+      button {
+        outline: none;
+        background-color: tomato;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h2>Find Rabbit!</h2>
+    <button class="find">Find Rabbit🐰</button>
+    <div class="images">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="rabbit" src="img/rabbit.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png">
+      <img class="carrot" src="img/carrot.png"> 
+      <img class="carrot" src="img/carrot.png">
+    </div>
+    <script>
+      const $find = document.querySelector('.find');
+      const $rabbit = document.querySelector('.rabbit');
+
+      $find.addEventListener('click', (event) => {
+        $rabbit.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+        //scrollIntoView : 해당 요소로 이동한다. 매개값으로 오브젝트를 넣어 다양한 설정을 할 수 있다.
+        // behavior : 어떻게 스크롤을 전환할지 선택, auto, smooth가 있음.
+        // block : 수직정렬을 의미한다. 해당 요소를 기준으로 수직정렬한 곳으로 스크롤이 이동된다.
+      });
+    </script>
+  </body>
+</html>
