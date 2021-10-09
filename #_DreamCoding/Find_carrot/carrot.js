@@ -6,6 +6,7 @@ const $start = document.querySelector('.play_pause');
 const $count = document.querySelector('.count');
 const $icon = document.querySelector('.play_pause i');
 const $gameOver = document.querySelector('.gameover');
+const $span = document.querySelector('.gameover span');
 
 // 시간 카운트 setInterval Id 저장함수
 let timer = null;
@@ -92,14 +93,16 @@ $start.addEventListener('click', () => {
 });
 
 $field.addEventListener('click', (event) => {
-    const $span = document.querySelector('.gameover span');
     if(event.target.className === 'carrot') {
+        new Audio('sound/carrot_pull.mp3').play();
         event.target.remove();
         carrots--;
         $count.textContent = carrots;
     }
 
     if(carrots === 0) {
+        carrots--;
+
         new Audio('sound/game_win.mp3').play();
         $span.textContent = 'YOU WIN!';
         $gameOver.style.visibility = 'visible';
@@ -110,7 +113,6 @@ $field.addEventListener('click', (event) => {
         new Audio('sound/bug_pull.mp3').play();
         $gameOver.style.visibility = 'visible';
         initialize();
-
     }
 
     if(event.target.tagName === 'BUTTON') {
@@ -128,8 +130,3 @@ addEventListener('load', () => {
     });
     bgm.play();
 });
-
-
-
-
-
