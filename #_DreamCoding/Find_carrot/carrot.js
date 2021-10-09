@@ -24,7 +24,9 @@ const random = () => { // transform x y 좌표 랜덤 생성
 }
 
 const startGame = () => {
+    $span.textContent = 'GAME OVER';
 
+    // bug 20개, carrot 15개 생성
     for(let i = 0; i<20; i++) {
         const $cloneBug = document.createElement('img');
         $cloneBug.setAttribute('src', 'img/bug.png');
@@ -43,6 +45,7 @@ const startGame = () => {
         $field.appendChild($cloneCarrot);
     };
 
+    // carrot length 변수 할당
     const $carrots = document.getElementsByClassName('carrot');
     carrots = $carrots.length;
     document.querySelector('.count').textContent = carrots;
@@ -58,6 +61,8 @@ const startGame = () => {
         }
 
         if(count === -1) {
+            new Audio('sound/alert.wav').play();
+            $gameOver.style.visibility = 'visible';
             initialize();
         }
     }, 1000);
@@ -95,16 +100,14 @@ $field.addEventListener('click', (event) => {
     }
 
     if(carrots === 0) {
+        new Audio('sound/game_win.mp3').play();
         $span.textContent = 'YOU WIN!';
         $gameOver.style.visibility = 'visible';
         initialize();
-
     }
 
     if(event.target.className === 'bug') {
-        if($span.textContent === 'YOU WIN!') {
-            $span.textContent = 'GAME OVER';
-        }
+        new Audio('sound/bug_pull.mp3').play();
         $gameOver.style.visibility = 'visible';
         initialize();
 
@@ -112,8 +115,18 @@ $field.addEventListener('click', (event) => {
 
     if(event.target.tagName === 'BUTTON') {
         $gameOver.style.visibility = 'hidden';
+        $icon.setAttribute('class', 'fas fa-stop-circle');
         startGame();
     }
+});
+
+addEventListener('load', () => {
+    const bgm = new Audio('sound/bg.mp3');
+    bgm.addEventListener('ended', () => {
+        bgm.currentTime = 0;
+        bgm.play();
+    });
+    bgm.play();
 });
 
 
