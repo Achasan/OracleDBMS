@@ -10,10 +10,8 @@ const $span = document.querySelector('.gameover span');
 
 // 시간 카운트 setInterval Id 저장함수
 let timer = null;
-
 // 시간 카운트 : 20초부터 --
 let count = 20;
-
 let carrots = 0;
 
 const random = () => { // transform x y 좌표 랜덤 생성
@@ -102,7 +100,6 @@ $field.addEventListener('click', (event) => {
 
     if(carrots === 0) {
         carrots--;
-
         new Audio('sound/game_win.mp3').play();
         $span.textContent = 'YOU WIN!';
         $gameOver.style.visibility = 'visible';
