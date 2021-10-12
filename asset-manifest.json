@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Study/tree/main/%23_Nomad_React/react_movie/static/css/main.ca3c62f2.chunk.css",
+    "main.js": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/main.7d61ac0c.chunk.js",
+    "main.js.map": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/main.7d61ac0c.chunk.js.map",
+    "runtime-main.js": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/runtime-main.032f132a.js",
+    "runtime-main.js.map": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/runtime-main.032f132a.js.map",
+    "static/js/2.65ad6a11.chunk.js": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/2.65ad6a11.chunk.js",
+    "static/js/2.65ad6a11.chunk.js.map": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/2.65ad6a11.chunk.js.map",
+    "index.html": "/Study/tree/main/%23_Nomad_React/react_movie/index.html",
+    "static/css/main.ca3c62f2.chunk.css.map": "/Study/tree/main/%23_Nomad_React/react_movie/static/css/main.ca3c62f2.chunk.css.map",
+    "static/js/2.65ad6a11.chunk.js.LICENSE.txt": "/Study/tree/main/%23_Nomad_React/react_movie/static/js/2.65ad6a11.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.032f132a.js",
+    "static/js/2.65ad6a11.chunk.js",
+    "static/css/main.ca3c62f2.chunk.css",
+    "static/js/main.7d61ac0c.chunk.js"
+  ]
+}
