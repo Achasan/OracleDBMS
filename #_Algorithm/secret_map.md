@@ -33,7 +33,7 @@ String.format("format", String s) : 문자열을 입력한 형식에 맞추어 �
             for(int i=0; i<n; i++) {
                 String a = String.format("%"+n+"s", Integer.toBinaryString(arr1[i]));
                 String b = String.format("%"+n+"s", Integer.toBinaryString(arr2[i]));
-                a = a.replaceAll(" ", "0");
+                a = a.replaceAll(P" ", "0");
                 b = b.replaceAll(" ", "0");
 
 

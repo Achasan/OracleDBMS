@@ -1,4 +1,4 @@
-# 20211025 TIL : 알고리즘 문제풀이
+# 20211025 알고리즘 문제풀이
 
 [문제] 프로그래머스 2레벨 : 프린트 [링크](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
