@@ -15,8 +15,32 @@
  
 ## Index
 
+### ⁉ #_Algorhythm
+  - 코딩테스트 사이트인 백준, 프로그래머스에서 풀었던 문제 해결과정, 고민한 과정 정리
+      - 백준 
+        - [10989번: 수 정렬하기](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Baekjoon/s5_sort.md)
+        - [9021번 : 괄호](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/20211021.md)
+      - 프로그래머스 
+        - [레벨 1: 오픈채팅방, 키패드누르기, 내적, K번째 수, 실패율, 2016년](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/20211013.md)
+        - [레벨 1: 최대공약수와 최소공배수, 완주하지 못한 선수](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/20211022.md)
+        - [레벨 2: 프린트](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/lv2_print.md)
+        - [레벨 2: 기능개발](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/p_lv2_functionDev.md)
+        - [스코빌 지수](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/p_lv2_scovile(heap).md)
+        - [비밀지도](https://github.com/Achasan/Study/blob/main/%23_Algorithm/Programmers/secret_map.md)
+
+<br>
+
+### 🍃 #_Spring_boot
+  - 인프런에서 '김영한의 Spring 완전 정복' 인터넷 강의를 듣고 정리한 글
+  - 단순히 Spring의 개념을 배우는 것 외에 왜 Spring이 등장하게되고, 많이 쓰는 프레임워크인지를 객체지향적으로 설명해주여 큰 도움이 되었습니다.
+  - 또한 Spring을 알기위해서 필요한 HTTP 네트워크 기본 지식도 알 수 있었으며, Spring MVC 패턴의 내부 구조를 알 수 있었습니다.
+    - 작성한 양이 꽤 방대합니다. 아래 링크 에서 확인해주세요.
+    - [Spring_Boot 정리폴더](https://github.com/Achasan/Study/tree/main/%23_Spring_boot)
+  
+<br>
+
 ### 1. 🛢 Oracle DB
-   - Oracle DataBase의 기본적인 개념부분을 정리한 폴더
+   - Oracle DataBase의 기본적인 개념부분을 정리
      - [DB 기본개념, 주요 자료형, 테이블, 제약조건, 조건절](https://github.com/Achasan/Study/blob/main/1_Oracle%20DB%20(9.2~9.7)/20210902.md)
      - [조건절 키워드(LIKE, ORDER BY, NOT), 시퀀스, JOIN, DUAL 테이블](https://github.com/Achasan/Study/blob/main/1_Oracle%20DB%20(9.2~9.7)/20210903.md)
      - [묵시적, 명시적 형변환, DECODE, 정규식](https://github.com/Achasan/Study/blob/main/1_Oracle%20DB%20(9.2~9.7)/20210904.md)
@@ -67,7 +91,6 @@
 
 <br>
 
-### 6. 
 
 
 
