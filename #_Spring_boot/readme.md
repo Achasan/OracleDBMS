@@ -2,7 +2,7 @@
 
 인프런 로드맵 : 김영한의 스프링 완전 정복 [링크](https://www.inflearn.com/roadmaps/373)
 
-<br> <hr> <br>
+<br> <br>
 
 ## Spring Boot 로드맵의 전체적인 흐름 강의
 
@@ -48,7 +48,7 @@
     - 빈이 초기화되거나, 생명주기가 끝날 때 메서드를 호출하는 방법
   - [빈 스코프](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211029.md)
 
-<br> <hr> <br>
+<br> <br>
 
 ## 모든 개발자를 위한 HTTP 웹 기본 지식
 
@@ -58,6 +58,18 @@
 
 웹 개발을 한다면 알아야하는 필수적인 TCP/IP, 3 ways handshake, HTTP 메시지의 전반적인 구조, REST API에 대해 보다 자세히 알 수 있는 강의였다.
 
-이전부터 REST API에 대해서 공부해야겠다는 생각은 꾸준히 가지고 있었다. 근데 이 강의를 통해서 알게 될 줄은 몰랐는데, 이전에 배웠던 스프링보다 더 좋은 강의인 것 같다. 가격도 싸다.
+이전부터 REST API에 대해서 공부해야겠다는 생각은 꾸준히 가지고 있었다. 근데 이 강의를 통해서 알게 될 줄은 몰랐는데, 이전에 배웠던 스프링보다 더 좋은 강의인 것 같다. 
 
 국비학원에서는 Servlet에있는 service 메서드만 사용했었다. 새로운 비즈니스 로직을 짜려면 URI를 새롭게 생성해주어야해서 다른 방법이 없나 생각하고 있었는데 같은 URI더라도 GET방식이냐 POST 방식이냐에 따라서 비즈니스로직을 다르게 수행할 수가 있어서 프로젝트 때 꼭 응용해보아야 할 것 같다.
+
+- 해당 강의를 통해 정리한 내용
+  - [IP 프로토콜, TCP/UDP의 정의, 특성, Port, DNS](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211029_1.md)
+  - [URI/URL/URN 정의, 웹 브라우저 요청 전체적인 흐름](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211029_2.md)
+  - [전체적인 HTTP 개념](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211031.md)
+    - HTTP의 역사, 특징, **Stateless, Stateful**, 비연결성, HTTP 메시지, 요청/응답 메시지 구조, HTTP 헤더/메시지 바디
+  - [HTTP API 설계(RESTAPI)](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211101_1.md)
+  - [HTTP 상태코드, PRG](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211101_2.md)
+  - [HTTP 헤더의 자세히 살펴보기(협상, 우선순위)](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211102_1.md)
+  - [쿠키의 전반적인 개념](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211102_2.md)
+  - [캐시 전반적인 개념](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211102_3.md)
+
