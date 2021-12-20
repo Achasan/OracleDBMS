@@ -39,6 +39,14 @@
   
 <br>
 
+### 🟨 #_VanilaJS
+  - JavaScript(+ CSS)를 공부하면서 토이프로젝트, 정리한 내용이 있는 폴더
+  - JavaScript의 기본적인 개념, 이를 활용한 토이프로젝트가 있습니다.
+  - 
+
+
+<br>
+
 ### 1. 🛢 Oracle DB
    - Oracle DataBase의 기본적인 개념부분을 정리
      - [DB 기본개념, 주요 자료형, 테이블, 제약조건, 조건절](https://github.com/Achasan/Study/blob/main/1_Oracle%20DB%20(9.2~9.7)/20210902.md)
