@@ -73,3 +73,17 @@
   - [쿠키의 전반적인 개념](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211102_2.md)
   - [캐시 전반적인 개념](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_HTTP_Basic/20211102_3.md)
 
+<br> <br>
+
+## Spring MVC 1편
+
+[2021.11.3 ~ 2021.11]
+
+Spring MVC 패턴을 배우기까지 기본적인 개념과 HTTP 기본 지식을 통해 MVC를 왜 사용해야하는지에 대한 기반을 다진 것 같다.
+이번 강의에서는 Spring MVC가 모델2 기반인 JSP/Servlet에서 어떤식으로 발전되어져 왔는지를 살펴보고, 어노테이션을 사용하여
+어떤 편리한 기능들을 Spring 프레임워크에서 제공하는지를 살펴보면서, 간단한 CRUD를 통해 게시판을 구현해보는 강의이다.
+전체적인 개념은 필기로 정리하였으며, 코드는 SpringMVC와 SpringBoot_CRUD 레포지토리에 정리하여 올려놓았다.
+
+- 해당 강의를 통해 정리한 레포지토리
+  - [SpringMVC](https://github.com/Achasan/SpringMVC) : SpringMVC 구조를 파악하기 위한 패턴의 발전과정을 정리한 레포지토리
+  - [SpringBoot_CRUD](https://github.com/Achasan/SpringBoot_CRUD) : 배운 개념을 바탕으로 간단히 구현해 본 상품 CRUD 토이프로젝트
