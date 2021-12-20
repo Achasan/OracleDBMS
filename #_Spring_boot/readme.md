@@ -4,18 +4,49 @@
 
 <br> <hr> <br>
 
+## Spring Boot 로드맵의 전체적인 흐름 강의
+
+[2021.10.16 ~ 2021.10.18]
+
+강의 로드맵을 수강하기 전 스프링 프레임워크에서 배워야하는 핵심 개념들을 코딩을 통해 훑어보는 무료강의
+컴포넌트의 개념부터 AOP까지 자바 스프링을 통해 알아야하는 중요한 개념들이 어떤 것이 있는지 알 수 있었다.
+물론 스프링을 아예 처음 접했고, 무엇보다 디자인 패턴이라는 개념을 처음 눈으로 보았기 때문에 이게 무슨 코드인지 처음에
+이해가 아예되지 않았다. 반복적으로 코드를 직접 타이핑해보니 어느정도 감은 잡힌 것 같다. 
+
+스프링은 나온지가 오래되기도 했고 생태계가 워낙 방대하다보니 공부하다가 지칠 수 있을 것 같아서 인터넷강의를 신청했는데
+좋은 이정표가 될 것 같다. 열심히 들어봐야겠다.
+
+- 수강하며 정리한 내용
+  - [컴포넌트 스캔으로 자동 빈 등록, 수동 빈 등록](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211015.md)
+  - [스프링 프레임워크의 핵심개념 전체적인 흐름 정리](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211017.md)
+
+<br>
+
 ## Spring Boot Basic
 
 [2021.10.19 ~ 2021.10.29]
 
-스프링에서 어떤 기술들을 배우고, 흐름이 어떤식으로 흘러가는지는 대충 안 것 같다. 이제 구체적으로 스프링에 대해서 기초적인 부분들을 강의
+스프링에서 어떤 기술들을 배우고, 흐름이 어떤식으로 흘러가는지는 대충 안 것 같다. 이제 구체적으로 스프링에 대해서 기초적인 부분들을 수강하려고 한다.
 [강의링크는여기](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8#)
 
 스프링도 스프링이지만 OOP에 대해서 자세하게 배울수 있는 기회가 될 것 같아서 강의를 결제했다. 자바 API를 공부하면서 이 객체가 '왜' 필요한지, 이 메소드는 어떤 상황에서 써야하는지, 이런 객체들과 메소드를 가지고 도대체 어떻게 코드를 작성해야 효율적이고, 가독성이 좋은 코드가 되는건지를 알고싶었는데, 이 강의를 통해서 그 궁금증이 해소되었으면 하는 바램이다.
 
 2021.10.29 - 스프링에서 사용하는 핵심적인 개념에 대해서 알 수 있었다. 의존관계를 주입하는 다양한 방법, 빈 자동등록, 수동 등록, lombok을 통해 생성자 코드를 안써서 효율성 높이기, 빈 생명주기, 스코프의 범위와 프록시 객체를 이용하여 컨테이너에서 새로운 객체 가져오기들을 배웠다.
 
-핵심적인 기능들로 이루어진 강의지만 복습이 필수인 것 같다. 그리고 이론적으로만 접근하면 힘들 것 같아서 이론과 토이프로젝트를 병행해야할 것 같다. 웹 페이지를 만들고 구현하는 것 까진 알겠는데 운영, 배포하는 방법을 몰라서 고민중이었는데 마침 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 책을 발견하게 되었다. 스프링 부트로 소셜 로그인을 구현하고 간단한 기능들을 구현하여 AWS를 통해 배포하는 책인데, 내가 관심있는 부분들과 일치해서 이 책으로 구현해볼 생각이다.
+- 해당 강의를 통해 정리한 내용
+  - [스프링이 등장하게 된 배경, 객체지향 설계 5원칙(SOLID)](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211019.md)
+  - [스프링 컨테이너에 등록된 빈 조회, XML 설정, 싱글턴 패턴, 컴포넌트 스캔과 의존관계 자동 주입](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211024.md)
+  - [컴포넌트 스캔과 의존관계 자동 주입(어노테이션)](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211028_1.md)
+    - @Component, @Controller, @Service, @Repository, @Configuration 의 각 역할, 수동 빈 등록과 자동 빈 등록의 충돌 등
+  - [다양한 의존관계 주입 방법(4가지)](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211028_2.md)
+    - 생성자 주입, 수정자 주입(Setter), 필드 주입, 일반 메서드 주입 : 각 주입방법 별 장/단점 정리 => 생성자 주입 권장
+  - [Gradle을 사용하여 lombok 라이브러리 추가하기](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211028_3.md)
+  - [추상체에 주입하려는 구현체(빈)가 여러 개 일 때](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211028_4.md)
+    - @Autowired에 필드명 선언, @Qualifier, @Primary로 하나의 추상체에 여러 구현체를 사용할 경우 처리방법
+  - [조회한 빈이 모두 필요할 때: List, Map을 사용](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211028_5.md)
+  - [빈 생명주기](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211028_6.md)
+    - 빈이 초기화되거나, 생명주기가 끝날 때 메서드를 호출하는 방법
+  - [빈 스코프](https://github.com/Achasan/Study/blob/main/%23_Spring_boot/%23_Spring_boot_basic/20211029.md)
 
 <br> <hr> <br>
 
