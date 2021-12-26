@@ -10,7 +10,7 @@
 
   - 앞으로 공부해야할 개념들을 Index에 작성하였습니다.
   
-  - 기술블로그도 운영중입니다! https://memoryrepo.tistory.com
+  - ~기술블로그도 운영중입니다! https://memoryrepo.tistory.com~ gitBlog로 이사할 예정
   
  
 ## Index
@@ -32,8 +32,8 @@
 
 ### 🍃 #_Spring_boot
   - 인프런에서 '김영한의 Spring 완전 정복' 인터넷 강의를 듣고 정리한 글
-  - 단순히 Spring의 개념을 배우는 것 외에 왜 Spring이 등장하게되고, 많이 쓰는 프레임워크인지를 객체지향적으로 설명해주여 큰 도움이 되었습니다.
-  - 또한 Spring을 알기위해서 필요한 HTTP 네트워크 기본 지식도 알 수 있었으며, Spring MVC 패턴의 내부 구조를 알 수 있었습니다.
+  - 단순히 Spring의 개념 외에 Spring의 등장배경, Spring을 사용하는 이유를 객체지향적으로 설명해준 강의
+  - Spring 외에 웹 개발의 기본인 HTTP 네트워크 기본 지식도 알 수 있었으며, Spring MVC 패턴의 내부 구조도 공부
     - 작성한 양이 꽤 방대합니다. 아래 링크 에서 확인해주세요.
     - [Spring_Boot 정리폴더](https://github.com/Achasan/Study/tree/main/%23_Spring_boot)
   
