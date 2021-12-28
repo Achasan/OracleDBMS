@@ -1,7 +1,13 @@
 <h1>✏ Study Repository</h1>
 
+#‼ 현재 해당 Repository는 GitBlog로 이사중입니다! 
+- https://achasan.github.io
+- 위 링크에서 확인해주세요.
+
+<hr>
+
 <h3>📃 공부한 내용을 정리해 놓은 Repository</h3>
-  
+
   - 공부했던 내용을 기록한 공간입니다.
   
   -  그날그날 공부한 내용, 개념 정리, 코드를 정리하여 올렸습니다.
@@ -9,8 +15,6 @@
   - 🔧 토이프로젝트와 같은 코드파일이 섞여있어 정리중에 있습니다. 
 
   - 앞으로 공부해야할 개념들을 Index에 작성하였습니다.
-  
-  - ~기술블로그도 운영중입니다! https://memoryrepo.tistory.com~ gitBlog로 이사할 예정
   
  
 ## Index
