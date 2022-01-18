@@ -1,8 +1,8 @@
 <h1>✏ Study Repository</h1>
 
-#‼ 현재 해당 Repository는 GitBlog로 이사중입니다! 
+## ‼ 현재 해당 Repository는 GitBlog로 이사완료되었습니다!
 - https://achasan.github.io
-- 위 링크에서 확인해주세요.
+- 이사한 마크다운들은 위 링크에서 확인해주세요.
 
 <hr>
 
